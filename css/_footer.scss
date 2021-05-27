@@ -1,0 +1,25 @@
+footer {
+  margin: 0;
+  background-color: mediumturquoise;
+  height: 78%;
+  width: 100%;
+    
+  ul {
+    display: flex;
+
+  }
+
+  .footer-list {
+    padding: 7px;
+    flex: 1 1 auto;
+    
+    a {
+      text-decoration: none;
+    }
+  }
+
+  #made-by {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,40 @@
+// navigation section
+$liColour: lightgray;
+$titleColour: slategray;
+
+.title {
+  margin: 0;
+  font-family:"Crimson Text", serif, sans-serif;
+  font-size: 22px;
+  color: $titleColour;
+}
+
+// navigation header and list
+#navHeader, #navList {
+    display: flex;
+
+    li {
+      padding: 7px;
+      color: $liColour;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    
+    #navigation h1 {
+      font-size: 47px;
+    }
+  }
+
+  .navigation-list {
+    padding-top: 3rem;
+  }
+
+  #navList {
+    padding-top: 4.89rem;
+  }
+
+  #navList a {
+    text-decoration: none;
+  }
+
+

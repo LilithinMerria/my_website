@@ -1,0 +1,58 @@
+// main section 
+$resumeColour: cadetblue;
+$workColour: darkorchid;
+$skillsColour: coral;
+
+img {
+    width: 380px;
+    border-radius: 50%;
+}
+
+.main-section, #mainLink {
+    display: flex;
+} 
+
+.main-section {
+  padding-top: 2.5rem;
+
+  h1 {
+    font-size: 70px;
+  }
+}
+
+#about-me {
+  font-size: 37px;
+}
+
+.mainFlex {
+    padding: 12px;
+}
+
+.resumeList {
+  margin: 0;
+  font-size: 16px;
+  padding: 2.5rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  flex: 1 1 24px;
+  margin: 12px;
+}
+
+.resumeLink {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#resumeP {
+  background-color: $resumeColour;
+}
+
+#workP {
+  background-color: $workColour;
+}
+
+#skillsP {
+  background-color: $skillsColour;
+}
