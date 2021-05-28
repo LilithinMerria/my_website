@@ -23,5 +23,11 @@ const mainSection = `
     </div>
 
 `
+// Creation of the main_section and append it to the main tag
+const indexSection = document.createElement("section");
+indexSection.classList.add("main-section", "content-wrapper");
+indexSection.innerHTML = mainSection;
+const main = document.querySelector("main");
+main.append(indexSection);
 
-export default mainSection;
+export default main;

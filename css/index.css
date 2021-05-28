@@ -83,6 +83,40 @@ img {
   background-color: coral;
 }
 
+#resume-section {
+  display: flex;
+}
+
+#resume-ex {
+  /*background-color: aqua;*/
+  flex: 1 1 550px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#skill-language {
+  /*background-color: blueviolet;*/
+  flex: 1 1 250px;
+}
+
+#resumeInfo {
+  background-color: cadetblue;
+  grid-column: 1;
+}
+
+#work-ex {
+  background-color: darkorchid;
+}
+
+#education {
+  background-color: coral;
+}
+
+#all-education {
+  grid-column: 2/3;
+}
+
 footer {
   margin: 0;
   background-color: mediumturquoise;

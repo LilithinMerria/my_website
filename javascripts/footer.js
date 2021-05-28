@@ -36,4 +36,8 @@ const footerHere = `
   </div>
 
 `
-export default footerHere;
+// Creation of the footer
+const footer = document.createElement("footer");
+footer.innerHTML = footerHere;
+
+export default footer;

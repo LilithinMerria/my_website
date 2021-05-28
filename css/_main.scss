@@ -45,6 +45,7 @@ img {
   color: white;
 }
 
+// Main page circles
 #resumeP {
   background-color: $resumeColour;
 }
@@ -55,4 +56,40 @@ img {
 
 #skillsP {
   background-color: $skillsColour;
+}
+
+// Main resume 
+#resume-section {
+  display: flex;
+}
+
+#resume-ex {
+  /*background-color: aqua;*/
+  flex: 1 1 550px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+ 
+}
+
+#skill-language {
+  /*background-color: blueviolet;*/
+  flex: 1 1 250px;
+ 
+}
+
+#resumeInfo {
+  background-color: $resumeColour;
+  grid-column: 1;
+}
+
+#work-ex {
+  background-color: $workColour;
+}
+#education {
+  background-color: $skillsColour;
+}
+
+#all-education {
+  grid-column: 2/3;
 }
