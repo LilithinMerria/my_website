@@ -20,7 +20,7 @@ const nav = `
     <ul id="navList" class="navigation-list">
       <li><a href="../index.html">${navigation.navTitle.first}</a></li>
       <li><a href="../resume.html">${navigation.navTitle.second}</a></li>
-      <li><a href="#">${navigation.navTitle.third}</a></li>
+      <li><a href="../projects.html">${navigation.navTitle.third}</a></li>
       <li><a href="#">${navigation.navTitle.last}</a></li>
     </ul>
   </div>

@@ -9,7 +9,7 @@ const section = {
 };
 
 const mainSection = `
-    <img src="${section.img}" alt="my picture" class="mainFlex">
+    <img id="main-image" src="${section.img}" alt="my picture" class="mainFlex">
     <div id="mainSection" class="mainFlex">
     
       <h1 class="title">${section.title}</h1>
