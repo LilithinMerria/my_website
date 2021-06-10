@@ -15,9 +15,9 @@ const mainSection = `
       <h1 class="title">${section.title}</h1>
       <h3 id="about-me" class="title">${section.subTitle}</h3>
       <div id="mainLink">
-        <p class="resumeList" id="resumeP"><a href="#" class="resumeLink">${section.resume}</a></p>
-        <p class="resumeList" id="workP"><a href="#" class="resumeLink">${section.work}</a></p>
-        <p class="resumeList" id="skillsP"><a href="#" class="resumeLink">${section.skills}</a></p>
+        <p class="resumeList" id="resumeP"><a href="../resume.html" class="resumeLink">${section.resume}</a></p>
+        <p class="resumeList" id="workP"><a href="../projects.html" class="resumeLink">${section.work}</a></p>
+        <p class="resumeList" id="skillsP"><a href="../resume.html" class="resumeLink">${section.skills}</a></p>
       </div>
       <p id="presentation">${section.presentation}</p>
     </div>
