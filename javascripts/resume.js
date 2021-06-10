@@ -11,6 +11,11 @@ document.querySelector("body").prepend(container);
 const content = document.createElement("div");
 content.classList.add("content-wrapper");
 
+// Creation of Resume title
+const resumeHeader = document.createElement("h1");
+resumeHeader.classList.add("content-wrapper");
+resumeHeader.innerHTML = "RESUME";
+
 // Append the header, main_section, and footer to the content-wrapper div
-container.prepend(header, resumeSection, footer);
+container.prepend(header, resumeHeader, resumeSection, footer);
 
