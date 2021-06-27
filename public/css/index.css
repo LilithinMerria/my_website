@@ -7,6 +7,7 @@
 
 #navHeader, #navList {
   display: flex;
+  flex-wrap: wrap;
 }
 #navHeader li, #navList li {
   padding: 7px;
@@ -35,10 +36,6 @@
   border-radius: 50%;
 }
 
-.main-section, #mainLink {
-  display: flex;
-}
-
 .main-section {
   padding-top: 2.5rem;
 }
@@ -61,7 +58,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  flex: 1 1 24px;
+  flex: 0 0 24px;
   margin: 12px;
 }
 
@@ -117,18 +114,32 @@
   grid-column: 2/3;
 }
 
+@media screen and (max-width: 437px) {
+  #main-image {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 982px) {
+  .main-section, #mainLink {
+    display: flex;
+  }
+}
+@media screen and (max-width: 981px) {
+  #mainLink {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 footer {
   margin: 0;
   background-color: mediumturquoise;
-  height: 78%;
   width: 100%;
-}
-footer ul {
-  display: flex;
+  height: 185px;
+  position: relative;
+  top: 300px;
 }
 footer .footer-list {
   padding: 7px;
-  flex: 1 1 auto;
 }
 footer .footer-list a {
   text-decoration: none;
@@ -137,6 +148,20 @@ footer #made-by {
   text-align: center;
 }
 
+@media (min-width: 750px) {
+  footer ul {
+    display: flex;
+  }
+
+  .footer-list {
+    flex: 1 1 auto;
+  }
+}
+@media (max-width: 545px) {
+  footer ul li, #presentation, #navList li {
+    font-size: 20px;
+  }
+}
 #project-one {
   background-color: cadetblue;
 }
