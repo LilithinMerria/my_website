@@ -5,7 +5,7 @@ const section = {
     resume: "MY RESUME",
     work: "MY WORK",
     skills: "MY SKILLS",
-    presentation: "I am a hard worker and self-motivated person. "
+    presentation: "I am a hard worker, fast learner,  and self-motivated person, seeking a Frontend Web Development contract position that will benefit from my technical skills developed through past work experiences. I exercise patience when needed and I am very open to learning new things. "
 };
 
 const mainSection = `
