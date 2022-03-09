@@ -2,9 +2,9 @@ const footerObj = {
   phone: "+905488331446",
   twitter: "Twitter",
   facebook: "Facebook",
-  email: "silvermistmuse@protonmail.com",
+  email: "kapayastudio@protonmail.com",
   emailMe: "Send Email",
-  made: "&copy 2021 by Yves Arthur"
+  made: "&copy 2022 by Yves Arthur"
 
 };
 

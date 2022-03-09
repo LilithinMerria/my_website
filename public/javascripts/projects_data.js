@@ -5,7 +5,7 @@ const projectObject = {
     project: "Project | 01",
     title: "Yves Arthur",
     paragraph: "My own website made with html5, css3, and javascript via js-injection method.",
-    link: "https://yvesarthur.web.app",
+    link: "https://silver-muse.web.app",
     github: "https://github.com/LilithinMerria/my_website"
   },
   second : {
