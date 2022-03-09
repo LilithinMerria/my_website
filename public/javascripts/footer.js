@@ -1,5 +1,5 @@
 const footerObj = {
-  phone: "+905488331446",
+  phone: "+905338544310",
   twitter: "Twitter",
   facebook: "Facebook",
   email: "kapayastudio@protonmail.com",
